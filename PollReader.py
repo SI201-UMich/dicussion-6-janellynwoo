@@ -112,6 +112,16 @@ class PollReader():
             tuple: A tuple containing the net change for Harris and Trump, in that order.
                    Positive values indicate an increase, negative values indicate a decrease.
         """
+        
+        # earliest polls
+        self.data_dict['month'] == 'aug'
+        self.data_dict['date'] == 28
+
+        # latest polls
+        self.data_dict['month'] == 'sept'
+        self.data_dict['date'] == 19
+
+
         pass
 
 
